@@ -8,42 +8,67 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
     <script src="main.js"></script>
 </head>
-<body>
+<body onload="startPage()">
     <h1>The Pokey Pin</h1>
-    <div><h4>Salty AF</h4>
-        <a href="img/salty.png"></a>
+    <table>
+        <tr>
+    <div><td><h4>Salty AF</h4>
+        <img src="img/salty.png"></a>
         <p>Price $10.00</p>
      <button onclick="addItem(0)">Add</button>
-     </div>
+    </td></div>
 
-    <div>Item 2
-     <button onclick="addItem(1)">Add</button>
-     </div>
+     <div><td><h4>Catzz</h4>
+     <img src="img/catz.png"></a>
+        <p>Price $45.00</p>
+        <button onclick="addItem(1)">Add</button>
+    </td></div>
 
-    <div>Item 3
+    <div><td><h4>Ryan Started the Fire</h4>
+    <img src="img/theOfficeRyan.png"></a>
+    <p>Price $8.00</p>
     <button onclick="addItem(2)">Add</button>
-     </div>
-    <div>Item 4
-    <button onclick="addItem(3)">Add</button>
-     </div> 
-     <div>Item 5
+</td></div>
+
+    <div><td><h4>Duke Silver</h4>
+    <img src="img/dukeSilver.png"></a>
+    <p>Price $8.00</p>  
+    <button onclick="addItem(3)">Add</button>   
+</td></div> </tr>
+
+     <tr><div><td><h4>Data and Spot</h4>
+    <img src="img/DataAndSpot.png"></a>
+    <p>Price $8.00</p>  
     <button onclick="addItem(4)">Add</button>
-    </div>
-    <div>Item 6
-     <button  onclick="addItem(5)">Add</button>
-     </div>
-    <div>Item 7
+</td></div>
+    <div><td><h4>Zelda</h4>   
+     <img src="img/ZeldaSet.png"></a>
+    <p>Price $32.00</p> 
+    <button  onclick="addItem(5)">Add</button> 
+</td></div>
+
+    <div><td><h4>Ramantic</h4>
+    <img src="img/Ramen.png"></a>
+    <p>Price $15.00</p>   
     <button onclick="addItem(6)">Add</button>
-     </div>
-     <div>Item 8
-     <button onclick="addItem(7)">Add</button>
-     </div>
-     <div>Item 9
-     <button onclick="addItem(8)">Add</button>
-    </div>
-    <div>Item 10
-    <button onclick="addItem(9)">Add</button>
-    </div>
+</td></div>
+     <div><td><h4>Stabby Crabby</h4>
+     <img src="img/StabbyCrabby.png"></a>
+     <p>Price $8.00</p> 
+     <button onclick="addItem(7)">Add</button> 
+    </td></div></tr>
+
+     <tr><td><div><h4>Hot Garbage</h4>
+     <img src="img/hot_trash.png"></a>
+     <p>Price $10.00</p>
+     <button onclick="addItem(8)">Add</button>  
+    </td></div>
+
+    <div><td><h4>Who you callin a Pinhead?</h4>
+    <img src="img/pinheadSet.png"></a>
+     <p>Price $18.00</p>  
+     <button onclick="addItem(9)">Add</button>
+    </td></div></table></tr>
     
     <h4>Total:</h4><div id= "checkout"></div>
 </body>

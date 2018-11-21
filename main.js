@@ -8,7 +8,7 @@ var menuObjects = [
         price:45.00
     },
     {
-     name:"fire",
+     name:"RyanFire",
      price: 8.00
     },
     {
@@ -41,7 +41,11 @@ var menuObjects = [
     }
 ];
 var total =0;
+var checkout;
 function addItem(index){
     total +=menuObjects[index].price;
-    document.getElementById('checkout').innerText=total;
+    checkout.innerText=total;
+}
+function startPage(){
+    checkout = document.getElementById('checkout')
 }
